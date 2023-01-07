@@ -1,0 +1,172 @@
+/*@media quary*/
+@media (min-width: 481px) and (max-width: 992px) {
+    
+    
+    .container {
+        width: 100%;
+    }
+    h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .btn {
+        margin-top: 20px;
+    }
+    .paragraph {
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .box{
+        padding: 0;    
+    }
+    .box p {
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    section {
+        padding: 40px 0;
+    }
+    
+    /*=================Layout========================*/
+    [class*="col-m-"] {
+  float: left;
+}
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+    /*Header Section*/
+    header {
+        background-color: blue;
+        text-align: center;
+    }
+    h1 {
+         font-size: 30px
+    }
+    .menu-part ul li{
+        padding: 0;
+    }
+    .menu-part ul li a {
+    font-size: 16px;
+    }
+    .hero-part {
+        padding: 50px
+    }
+    .menu-part ul {
+        text-align: center;
+        padding: 10px 0
+    }
+  /* Service Section*/
+    #service .box img {
+        margin: 20px 0 10px 0;
+        height: 100px;
+    }
+    /*=======Team Section======*/
+    #team .img {
+        width: 150px;
+        height: 150px;
+    }
+    #team .box {
+        height: 350px;
+    }
+    #team p {
+        height: 80px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    #team span {
+        font-size: 12px;
+        
+    }
+    .social-links {
+        margin-top: 10px; 
+    }
+    .social-links i {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    #team .social-links i::before{
+    background: #bdd1df;
+    width: 10px;
+    height: 10px;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+}
+
+    /*=========skills======*/
+    #skills {
+        text-align: center;
+    }
+    #skills img {
+        width: 60%;
+        margin-top: 15px;
+        
+    }
+    /*========portfolio=====*/
+    #portfolio img {
+        margin: 10px 0;
+    }
+    .writing-ul li a {
+        font-size: 14px;
+    }
+    .writing-ul li {
+        padding: 5px 8px;
+    }
+    .box-part .box span {
+        font-size: 10px;
+
+    }
+    /*==========#testimonials============*/
+    #testimonials .content {
+          padding: 10px 0 10px 10px;
+        
+    }
+    .box-img {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    #testimonials .content p {
+        font-size: 14px;
+    }
+    /*====Touch Section====*/
+    #get-in-touch .form{
+        width: 90%;
+        margin-right: 5%;
+    }
+    .form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    font-size: 14px;
+    
+    }
+    #footer ul li {
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    #footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+
+}   
+    
+}
